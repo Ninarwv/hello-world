@@ -1,10 +1,1 @@
-import twitter
 
-# initialize api instance
-twitter_api = twitter.Api(consumer_key='RVXFn1tNB0aFK3tftBHCAs2G2',
-                        consumer_secret='YNijkhjUH7BRxjKWS8Ntwx1G8yorKtgFYFbo1LS5ft0CWeoo3h',
-                        access_token_key='1166983376965967873-fxw9Nr3AyOzN8Z57yaqCc5DupRzoPV',
-                        access_token_secret='SihpNejztadXq6nBosiMAgLNO3kjNRe0pBY8dCTNN3Nrl ')
-
-# test authentication
-print(twitter_api.VerifyCredentials())
